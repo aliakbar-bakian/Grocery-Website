@@ -75,9 +75,11 @@ Header
 
 */
 
+/* Nav Top */
+
 .header {}
 
-.nav {
+.nav_top {
     display: flex;
     justify-content: space-between;
     padding: 1.7rem 0;
@@ -213,4 +215,68 @@ Header
     width: 4rem;
     height: 4rem;
     border-radius: 100%;
+}
+
+
+/* Nav bottom */
+
+.nav_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.headr_btn {
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 21.8rem;
+    width: 100%;
+    min-width: fit-content;
+    background-color: var(--base-green);
+    padding: 1.4rem 0;
+    gap: .9rem;
+    color: var(--white);
+    border-radius: .2rem;
+    font-family: var(--secondary-font-semi-bold);
+    cursor: pointer;
+}
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.nav_menu_item {}
+
+.nav_menu_link {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.header_information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: .5rem;
+}
+
+.header_information_number {
+    font-family: var(--secondary-font-semi-bold);
+    font-size: 1.8rem;
+    color: var(--base-green);
+}
+
+.header_information_text {
+    font-size: 1.4rem;
+}
+
+.nav_menu_link--active {
+    color: var(--base-green);
 }
