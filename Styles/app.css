@@ -280,3 +280,78 @@ Header
 .nav_menu_link--active {
     color: var(--base-green);
 }
+
+/* 
+
+Main
+
+*/
+
+
+
+
+/* Daily Deals */
+
+.daily_deals {
+    background: url("../images/Rectangle\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 47.7rem;
+    position: relative;
+}
+
+.daily_deals_green_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(194, 234, 217, .78);
+}
+
+.daily_deals_header {}
+
+.daily_deals_title {
+    font-size: 5.5rem ;
+    font-family: var(--secondary-font-bold);
+    max-width: 53.2rem;
+    margin-top: 8.9rem;
+}
+
+.daily_deals_caption {
+    color: #838383;
+    font-size: 2rem;
+    margin-top: 2.9rem;
+}
+
+.daily_deals_email_box {
+    margin-top: 5.4rem;
+    background-color: var(--white);
+    width: 43.7rem;
+    height: 5.2rem;
+    display: flex;
+}
+
+.daily_deals_input {
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+.daily_deals_btn {
+    border: none;
+    outline: none;
+    max-width: 10.8rem;
+    width: 100%;
+    background-color: var(--base-green);
+    color: var(--white);
+    font-family: var(--secondary-font-semi-bold);
+    cursor: pointer;
+}
+
+.daily_deals_img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
