@@ -18,7 +18,30 @@
     --icon-md: 1.8rem;
     --icon-xl: 2rem;
     --icon-xxl: 2.4rem;
+}
 
+/* Helper Class */
+
+.blush{
+    background-color: #FEEFEA;
+}
+.purple{
+    background-color: #FFF3FF;
+}
+.light_green{
+    background-color: #F2FCE4;
+}
+.green{
+    background-color: #ECFFEC;
+}
+.light_brown{
+    background-color: #FFFCEB;
+}
+.light_blue{
+    background-color: #DEF9EC;
+}
+.active{
+    color: var(--base-green);
 }
 
 html {
@@ -298,6 +321,7 @@ Main
     background-repeat: no-repeat;
     min-height: 47.7rem;
     position: relative;
+    margin-bottom: 10rem;
 }
 
 .daily_deals_green_overlay {
@@ -312,7 +336,7 @@ Main
 .daily_deals_header {}
 
 .daily_deals_title {
-    font-size: 5.5rem ;
+    font-size: 5.5rem;
     font-family: var(--secondary-font-bold);
     max-width: 53.2rem;
     margin-top: 8.9rem;
@@ -349,9 +373,70 @@ Main
     cursor: pointer;
 }
 
-.daily_deals_img{
+.daily_deals_img {
     position: absolute;
     top: 0;
     right: 0;
     z-index: 2;
+    height: 100%;
+}
+
+
+/* Explore */
+
+.explore {}
+
+.explore_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.explore_title {
+    font-family: var(--secondary-font-semi-bold);
+    font-size: 3.2rem;
+}
+
+.explore_menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.explore_menu_item {
+    cursor: pointer;
+}
+.explore_menu_item--active{
+    color: var(--base-green);
+}
+
+.explore_cards {
+    margin-top: 3.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.explore_card {
+    padding: 1.3rem 2.5rem 1.9rem 2.7rem;
+    text-align: center;
+    border-radius: .3rem;
+    min-height: 19.4rem;
+}
+
+.explore_card_img {
+    width: 10.1rem;
+    height: 10.1rem;
+    object-fit: contain;
+    margin-bottom: 1.5rem;
+}
+
+.explore_card_title {
+    margin-bottom: .5rem;
+    font-size: 1.8rem;
+    font-family: var(--secondary-font-semi-bold);
+}
+
+.explore_card_count {
+    font-size: 1.4rem;
+    color: var(--gray);
 }
