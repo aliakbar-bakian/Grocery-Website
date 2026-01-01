@@ -1,13 +1,69 @@
 @media screen and (max-width:1200px) {
-    
+    .action_item{
+        display: none;
+    }
+    .header_information{
+        display: none;
+    }
+    .daily_deals_img{
+        width: 50rem;
+    }
+
+    .explore_cards{
+        flex-wrap: wrap;
+        gap: .5rem;
+    }
+    .explore_card{
+        flex: 1 1 10rem;
+    }
 }
 
 @media screen and (max-width:992px) {
-    
+    .search_bar{
+        display: none;
+    }
+    .nav_bottom{
+        display: none;
+    }
+    .daily_deals_img{
+        width: 40rem;
+    }
+    .daily_deals_title{
+        font-size: 4.5rem;
+    }
+    .daily_deals_caption{
+        font-size: 1.5rem;
+    }
+    .daily_deals_email_box{
+        width: 40rem;
+    }
 }
 
 @media screen and (max-width:768px) {
-    
+    .daily_deals_img{
+        display: none;
+    }
+    .daily_deals_title{
+        max-width: none;
+        text-align: center;
+    }
+    .daily_deals_caption{
+        text-align: center;
+    }
+    .daily_deals_email_box{
+        margin: 4rem auto;
+        width: 100%;
+
+    }
+    .explore_menu{
+        display: none;
+    }
+    .explore_title{
+        margin: 0 auto;
+    }
+    .daily_deals{
+        margin-bottom: 5rem;
+    }
 }
 
 @media screen and (max-width:576px) {
