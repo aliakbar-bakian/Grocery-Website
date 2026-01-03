@@ -22,25 +22,31 @@
 
 /* Helper Class */
 
-.blush{
+.blush {
     background-color: #FEEFEA;
 }
-.purple{
+
+.purple {
     background-color: #FFF3FF;
 }
-.light_green{
+
+.light_green {
     background-color: #F2FCE4;
 }
-.green{
+
+.green {
     background-color: #ECFFEC;
 }
-.light_brown{
+
+.light_brown {
     background-color: #FFFCEB;
 }
-.light_blue{
+
+.light_blue {
     background-color: #DEF9EC;
 }
-.active{
+
+.active {
     color: var(--base-green);
 }
 
@@ -384,7 +390,10 @@ Main
 
 /* Explore */
 
-.explore {}
+.explore {
+    position: relative;
+    margin-bottom: 10.7rem;
+}
 
 .explore_header {
     display: flex;
@@ -406,7 +415,8 @@ Main
 .explore_menu_item {
     cursor: pointer;
 }
-.explore_menu_item--active{
+
+.explore_menu_item--active {
     color: var(--base-green);
 }
 
@@ -439,4 +449,153 @@ Main
 .explore_card_count {
     font-size: 1.4rem;
     color: var(--gray);
+}
+
+.arrow_box {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.6rem;
+    height: 4.6rem;
+    background-color: #F2F3F4;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.arrow_box_right {
+    right: 3.8rem;
+    top: 12.5rem;
+}
+
+.arrow_box_left {}
+
+
+
+/* Featured */
+
+.featured {
+    margin-bottom: 10.7rem;
+}
+
+.featured_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.featured_title {
+    font-family: var(--secondary-font-semi-bold);
+    font-size: 3.2rem;
+}
+
+.featured_menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.featured_menu_item {
+    cursor: pointer;
+}
+
+.featured_menu_item--active {
+    color: var(--base-green);
+}
+
+.featured_cards {
+    margin-top: 3.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem ;
+}
+
+.featured_card {
+    width: 22.8rem;
+    padding: 1rem;
+    border: 1px solid rgba(173, 173, 173, .25);
+}
+
+.featured_card_img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.featured_card_category {
+    font-size: 1.2rem;
+    font-family: "Quicksand Regular";
+    color: var(--gray);
+    margin-bottom: .7rem;
+}
+
+.featured_weight {
+    font-family: var(--secondary-font-semi-bold);
+    margin-bottom: 1.5rem;
+}
+
+.featured_info {}
+
+.featured_rate {}
+
+.featured_rate_img {}
+
+.featured_rate_number {
+    font-size: 1.1rem;
+    color: var(--gray);
+}
+
+.featured_author {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    font-family: "Quicksand Regular";
+}
+
+.featured_author_left {
+    color: var(--gray);
+}
+
+.featured_author_right {
+    color: var(--base-green);
+}
+
+.featured_costs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured_cost_numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured_cost_new_number {
+    font-family: var(--secondary-font-semi-bold);
+    font-size: 1.8rem;
+    color: var(--base-green);
+    margin-right: 1rem;
+}
+
+.featured_cost_old_number {
+    color: var(--gray);
+    font-size: 1.4rem;
+}
+
+.featured_btn {
+    max-width: 9rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    justify-content: center;
+    min-height: 3.4rem;
+    color: var(--base-green);
+    background-color: var(--light-green);
+    border-radius: .2rem;
+    cursor: pointer;
 }
